@@ -1,4 +1,14 @@
 /*
+systemLog:
+  destination: file
+  path: /usr/local/var/log/mongodb/mongo.log
+  logAppend: true
+storage:
+  dbPath: /usr/local/var/mongodb
+net:
+  bindIp: 127.0.0.1
+mongod --config /usr/local/etc/mongod.conf
+
 note: https://docs.mongodb.com/getting-started/node/query/
 */
 
